@@ -1,0 +1,103 @@
+
+.table1{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.table1 th, td{
+    padding: 15px;
+    width: 200px;
+    height: 10px;
+}
+.table1 th{
+    background-color: rgb(17, 17, 17);
+    color: aliceblue;
+}
+
+.table1 td{
+    background-color: rgb(151, 148, 148);
+    color: rgb(22, 22, 22);
+}
+
+.contain , .contain-1{
+    display: flex;
+    justify-content: center;
+}
+
+.contain-inside {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.contain-inside1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.contain-inside input {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(250, 246, 246);
+}
+
+body{
+    background-color: dimgray;
+    margin-top: 60px;
+}
+
+.contain-inside1 button{
+    border-radius: 5px;
+    border: 0px;
+    background-color: black;
+    color: antiquewhite;
+    height: 25px;
+    width: 100px;
+}
+
+.contain-inside1:hover button{
+    background-color: brown;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.timer button{
+    padding: 10px;
+    margin-right: 20px;
+    width: 130px;
+    background-color: rgb(17, 138, 219);
+}
+
+.contain-1 input {
+    height: 30px;
+    width: 200px;
+    border-radius: 0px;
+    border: 0px;
+    text-align: center;
+    background-color: rgb(250, 246, 246);
+}
+
+
+
+.square{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    border: 0.1rem dotted;
+    display: flex;
+    justify-content: center;
+}
